@@ -79,7 +79,7 @@ h1.name {
   color: black;
 }
 h1 {
-  color: blue;
+  color: rgb(98, 228, 11);
   text-align: center;
   font-family: system-ui;
 }
@@ -88,20 +88,17 @@ p {
   font-family: system-ui;
 }
 table.header {
-  border-bottom: #2283cd;
-  border: 0;
+  border: 0px;
 }
 
 #info {
-  width: inherit;
+  margin: auto;
+  width: 100%;
+  border-radius: 8px;
   font-size: 30;
   text-align: center;
 }
-#info th,
-#info td {
-  border: 5px solid rgb(0, 0, 0);
-  padding: 8px;
-}
+
 
 li {
   font-family: tahoma;
