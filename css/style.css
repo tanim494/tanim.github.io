@@ -4,12 +4,12 @@ body {
 }
 #top {
   background-image: url();
-  position: fixed;
+  position:relative;
   width: 100%;
 }
 section.fpage{
-  align-items: center;
-  margin: 23% 0 0 0;
+  
+
 }
 table.header {
   margin: auto;
@@ -93,7 +93,7 @@ table.header {
 }
 
 #info {
-  width: 100%;
+  width: fit-content;
   font-size: 30;
   text-align: center;
 }
@@ -109,4 +109,7 @@ li {
 #ullist {
   font-size: 30px;
   font-size: 35px;
+}
+#nobod{
+  border: 0px;
 }
