@@ -1,68 +1,67 @@
-body
-{
-  background-color:#2AA8C0 ;
-
+body {
+  width: 100%;
+  background-color: #2aa8c0;
 }
-div.top
-{
-  background-image:url('https://i.imgur.com/KrYjD8S.png');
+#top {
+  background-image: url();
 }
-#header
-{
-  border:10;
-}
-#border
-{
-  background-color: #21dce1 ;
-}
-h1.name
-{
+table.header {
+  margin: auto;
   text-align: left;
-  font-family:Brush Script MT,cursive;
-  font-size:50;
-  color:black;
-}
-h1
-{
-color:blue;
-text-align:center;
-font-family:verdana;
-font-size:
-}
-p
-{
-  font-size:30;
-  font-family:verdana;
-}
-#box
-{
-  background-color:#c3ccd3;
+  background-image: url("https://i.imgur.com/KrYjD8S.png");
+  border-radius: 20px;
+  width: 98%;
 }
 
-table.header
-{
-border-bottom: #2283cd;
-border:0;
+#border {
+  margin: auto;
+  width: 98%;
+  background-color: #21dce1;
+  border-radius: 18px;
+  height: auto;
+  box-shadow: 7px 7px 7px black;
 }
 
-#info
-{
-  width:100%;
-  font-size:30;
+h1.name {
+  text-align: left;
+  text-shadow: 0 0;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 5px 5px 100px rgba(62, 207, 98, 0.608);
+  font-family: Brush Script MT, cursive;
+  font-size: 50;
+  color: black;
+}
+h1 {
+  color: white;
+  text-align: center;
+  font-family: system-ui;
+  text-shadow: 4px 2px 8px rgb(142, 67, 67);
+}
+p {
+  font-size: 30;
+  font-family: system-ui;
+}
+#box {
+  box-shadow: 4px 4px 8px black;
+  border-radius: 10px;
+  padding: 3px;
+  margin: auto;
+  text-align: left;
+  background-color: #c3ccd3;
+  width: 93%;
+}
+
+#info {
+  width: 100%;
+  font-size: 30;
   text-align: center;
 }
-#info th, #info td 
-{
-  border: 10px solid rgb(0, 0, 0);
-  padding: 8px;
-;
-}
 
-li
-{
-  font-family:tahoma;
+li {
+  font-family: tahoma;
 }
-#ullist
-{
-font-size:35px;
+#ullist {
+  font-size: 30px;
 }
