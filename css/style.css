@@ -53,10 +53,50 @@ p {
   width: 93%;
 }
 
+div.top {
+  background-image: url("photos/cover.png");
+}
+#header {
+  border: 10;
+}
+#border {
+  background-color: #21dce1;
+}
+
+h1.name {
+  text-align: left;
+  font-family: Brush Script MT, cursive;
+  font-size: 50;
+  color: black;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: system-ui;
+
+}
+p {
+  font-size: 30;
+  font-family: system-ui;
+}
+#box {
+  background-color: #c3ccd3;
+}
+
+table.header {
+  border-bottom: #2283cd;
+  border: 0;
+}
+
 #info {
   width: 100%;
   font-size: 30;
   text-align: center;
+}
+#info th,
+#info td {
+  border: 5px solid rgb(0, 0, 0);
+  padding: 8px;
 }
 
 li {
@@ -64,4 +104,5 @@ li {
 }
 #ullist {
   font-size: 30px;
+  font-size: 35px;
 }
