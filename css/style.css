@@ -4,6 +4,11 @@ body {
 }
 #top {
   background-image: url();
+  position: fixed;
+  width: 100%;
+}
+section.fpage{
+  margin: 23% 0 0 0;
 }
 table.header {
   margin: auto;
@@ -44,13 +49,16 @@ p {
   font-family: system-ui;
 }
 #box {
-  box-shadow: 4px 4px 8px black;
+  box-shadow: 6px 6px 8px rgba(54, 54, 68, 0.311);
   border-radius: 10px;
   padding: 3px;
   margin: auto;
   text-align: left;
   background-color: #c3ccd3;
   width: 93%;
+}
+#box:hover{
+  box-shadow: 10px 10px 18px black;
 }
 
 div.top {
@@ -73,16 +81,11 @@ h1 {
   color: blue;
   text-align: center;
   font-family: system-ui;
-
 }
 p {
   font-size: 30;
   font-family: system-ui;
 }
-#box {
-  background-color: #c3ccd3;
-}
-
 table.header {
   border-bottom: #2283cd;
   border: 0;
