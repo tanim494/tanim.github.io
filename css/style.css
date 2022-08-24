@@ -1,68 +1,55 @@
-body
-{
-  background-color:#2AA8C0 ;
+body {
+  background-color: #2aa8c0;
+}
+div.top {
+  background-image: url("https://i.imgur.com/KrYjD8S.png");
+}
+#header {
+  border: 10;
+}
+#border {
+  background-color: #21dce1;
+}
 
-}
-div.top
-{
-  background-image:url("https://i.imgur.com/KrYjD8S.png");
-}
-#header
-{
-  border:10;
-}
-#border
-{
-  background-color: #21dce1 ;
-}
-h1.name
-{
+h1.name {
   text-align: left;
-  font-family:Brush Script MT,cursive;
-  font-size:50;
-  color:black;
+  font-family: Brush Script MT, cursive;
+  font-size: 50;
+  color: black;
 }
-h1
-{
-color:blue;
-text-align:center;
-font-family:verdana;
-font-size:
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: verdana;
+  font-size: ;
 }
-p
-{
-  font-size:30;
-  font-family:verdana;
+p {
+  font-size: 30;
+  font-family: verdana;
 }
-#box
-{
-  background-color:#c3ccd3;
+#box {
+  background-color: #c3ccd3;
 }
 
-table.header
-{
-border-bottom: #2283cd;
-border:0;
+table.header {
+  border-bottom: #2283cd;
+  border: 0;
 }
 
-#info
-{
-  width:100%;
-  font-size:30;
+#info {
+  width: 100%;
+  font-size: 30;
   text-align: center;
 }
-#info th, #info td 
-{
-  border: 10px solid rgb(0, 0, 0);
+#info th,
+#info td {
+  border: 5px solid rgb(0, 0, 0);
   padding: 8px;
-;
 }
 
-li
-{
-  font-family:tahoma;
+li {
+  font-family: tahoma;
 }
-#ullist
-{
-font-size:35px;
+#ullist {
+  font-size: 35px;
 }
