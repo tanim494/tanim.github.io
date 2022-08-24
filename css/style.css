@@ -93,7 +93,7 @@ table.header {
 }
 
 #info {
-  width: fit-content;
+  width: inherit;
   font-size: 30;
   text-align: center;
 }
@@ -109,7 +109,4 @@ li {
 #ullist {
   font-size: 30px;
   font-size: 35px;
-}
-#nobod{
-  border: 0px;
 }
