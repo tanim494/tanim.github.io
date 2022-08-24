@@ -21,12 +21,12 @@ h1.name {
 h1 {
   color: blue;
   text-align: center;
-  font-family: verdana;
+  font-family: system-ui;
   font-size: ;
 }
 p {
   font-size: 30;
-  font-family: verdana;
+  font-family: system-ui;
 }
 #box {
   background-color: #c3ccd3;
