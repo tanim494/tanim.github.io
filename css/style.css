@@ -90,17 +90,16 @@ li {
 .gap {
   padding-bottom: 10px;
 }
-#link{
+#link,.btn{
   align-items: center;
   justify-content: center;
-  margin: 15px auto auto auto;
+  margin: 15px auto 5px auto;
   width:max-content;
   color:white;
   padding: 20px;
   font-family: aboreto,serif ;
   letter-spacing: 2px;
   border-top: 3px solid rgba(54, 54, 68, 0.311);
-  /*border-left: 3px solid rgba(54, 54, 68, 0.311);*/
   text-decoration: none;
   border-radius: 10px;
   display:flex;
@@ -113,7 +112,17 @@ li {
   opacity: 80%;
   box-shadow: 5px 5px 10px black;
 }
+.btn:hover{
+  opacity: 80%;
+  box-shadow: 5px 5px 10px black;
+}
 .rare{
   display: flex;
   flex-direction:column;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-transform: uppercase;
 }
