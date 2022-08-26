@@ -19,7 +19,7 @@ section.fpage {
 
 #border {
   width: 98%;
-  background-color: #b8c1ec;
+  background-color: #2cb67d;
   border-radius: 18px;
   box-shadow: 7px 7px 7px black;
 }
@@ -36,7 +36,7 @@ h1.name {
   color: black;
 }
 h1 {
-  color: black;
+  color: white;
   text-align: center;
   font-family: system-ui;
   text-shadow: 4px 2px 8px #004643;
