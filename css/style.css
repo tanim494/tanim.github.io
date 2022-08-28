@@ -15,7 +15,7 @@ body {
 section.fpage {
   font-family:popins, serif;
   margin: 2% auto auto auto;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 #border {
