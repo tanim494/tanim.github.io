@@ -5,7 +5,7 @@ body {
 #top {
   background-image: url(../photos/cover.png);
   box-shadow: 10px 10px 50px black;
-  margin: auto;
+  margin-top: 0%;
   text-align: left;
   border-radius: 20px;
   width: 95%;
@@ -14,7 +14,8 @@ body {
 }
 section.fpage {
   font-family:popins, serif;
-  margin: 30px auto auto auto;
+  margin: 2% auto auto auto;
+  overflow: scroll;
 }
 
 #border {
